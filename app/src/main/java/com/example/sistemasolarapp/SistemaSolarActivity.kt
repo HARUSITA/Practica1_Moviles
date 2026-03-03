@@ -3,6 +3,7 @@ package com.example.sistemasolarapp
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 import androidx.appcompat.app.AppCompatActivity
 
 class SistemaSolarActivity : AppCompatActivity() {
@@ -11,9 +12,14 @@ class SistemaSolarActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sistema_solar)
 
-        val boton = findViewById<Button>(R.id.btnPlanetas)
+        val btnBack = findViewById<ImageButton>(R.id.btnBack)
+        val btnGoPlanets = findViewById<Button>(R.id.btnGoPlanets)
 
-        boton.setOnClickListener {
+        btnBack.setOnClickListener {
+            finish()
+        }
+
+        btnGoPlanets.setOnClickListener {
             val intent = Intent(this, PlanetasActivity::class.java)
             startActivity(intent)
         }

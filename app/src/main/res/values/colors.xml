@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Fondo espacial oscuro -->
+    <color name="space_dark_bg">#0D1333</color>
+
+    <!-- Card oscura tipo glass -->
+    <color name="space_card_dark">#1B2245</color>
+
+    <!-- Texto secundario -->
+    <color name="text_secondary">#8E99AF</color>
+
+    <!-- Botón acento -->
+    <color name="accent_purple">#6C4AB6</color>
+
 </resources>
