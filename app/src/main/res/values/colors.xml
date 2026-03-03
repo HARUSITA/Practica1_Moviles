@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="space_dark_bg">#0D1333</color>
+    <color name="space_card_glass">#26FFFFFF</color>
+    <color name="accent_yellow">#FFC107</color> <color name="text_secondary">#8E99AF</color>
+    <color name="neptune_blue">#4A90E2</color>
 </resources>

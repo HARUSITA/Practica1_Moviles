@@ -1,26 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:background="#212121"
-    android:padding="24dp">
+    android:background="@color/space_dark_bg"
+    android:fillViewport="true">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="🪐 Planetas del Sistema Solar"
-        android:textSize="24sp"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        android:layout_marginBottom="40dp"/>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/btnLunas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ver Lunas"/>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Planetas"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
-</LinearLayout>
+        <ImageView
+            android:id="@+id/imgPlanet"
+            android:layout_width="378dp"
+            android:layout_height="204dp"
+            android:layout_marginTop="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sistema_solar_bg"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvTitle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/bg_glass_card"
+            android:orientation="vertical"
+            android:padding="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgPlanet"
+            app:layout_constraintVertical_bias="1.0">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Planetas del Sistema Solar"
+                    android:textColor="#FFFFFF"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:lineSpacingExtra="4dp"
+                android:text="• Mercurio: El más pequeño y cercano al Sol.\n\n• Venus: El más caliente por su densa atmósfera.\n\n• Tierra: El único con vida y agua líquida.\n\n• Marte: Desierto frío con el volcán más alto.\n\n• Júpiter: El más grande. Gigante gaseoso.\n\n• Saturno: Famoso por su sistema de anillos.\n\n• Urano: Gigante de hielo que rota de lado.\n\n• Neptuno: El más lejano y con vientos fuertes."
+            android:textColor="@color/text_secondary"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnLunas"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="#33FFFFFF"
+                android:text="🪐 VER LUNAS"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

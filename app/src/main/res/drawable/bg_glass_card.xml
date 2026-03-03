@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/space_card_glass" />
+    <corners android:topRightRadius="40dp" android:topLeftRadius="40dp" />
+</shape>
