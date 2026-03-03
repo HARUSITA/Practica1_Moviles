@@ -51,6 +51,7 @@ Para poner en marcha el proyecto en tu entorno local:
 <img width="1919" height="1133" alt="image" src="https://github.com/user-attachments/assets/1583d8e6-ebf5-4784-a048-bd0a34c2876d" />
 **Github y Docker**
 <img width="1444" height="1128" alt="image" src="https://github.com/user-attachments/assets/f361380e-ef95-42f6-aea5-b1b31fe82083" />
+<img width="1919" height="1140" alt="image" src="https://github.com/user-attachments/assets/25ac033e-4ec7-42ae-9e9a-e3834e8fb9c5" />
 
 
 
