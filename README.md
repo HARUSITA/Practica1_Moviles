@@ -1,8 +1,8 @@
-# 🌌 Sistema Solar App - Práctica 1 Móviles
+# Sistema Solar App - Práctica 1 Móviles
 
 Este proyecto es un explorador interactivo del Sistema Solar desarrollado para Android. La aplicación utiliza un diseño moderno basado en **Glassmorphism**, ofreciendo una experiencia visual inmersiva para navegar entre los planetas, sus lunas y la galaxia.
 
-## 📱 Actividades (Activities)
+## Actividades (Activities)
 
 La aplicación se estructura en tres actividades principales:
 
@@ -10,7 +10,7 @@ La aplicación se estructura en tres actividades principales:
 * **LunasActivity (Satélites Naturales):** Esta interfaz se activa mediante el botón "VER LUNAS". Muestra información resumida sobre los satélites más representativos (como la Luna, Ganímedes o Titán) manteniendo la coherencia visual del proyecto.
 * **GalaxiaActivity (Vía Láctea):** Proporciona una visión macroscópica de nuestro lugar en el universo. Detalla datos técnicos sobre la Vía Láctea, como su tipo, tamaño y el agujero negro central Sagitario A*.
 
-## ⚙️ Ciclo de Vida y Transiciones de Android
+## Ciclo de Vida y Transiciones de Android
 
 El manejo del flujo de la aplicación se optimizó utilizando los principios del ciclo de vida de Android:
 
@@ -20,10 +20,10 @@ El manejo del flujo de la aplicación se optimizó utilizando los principios del
 
 
 
-[Image of Android Activity Lifecycle diagram]
 
 
-## 🚀 Cómo ejecutar la aplicación
+
+## Cómo ejecutar la aplicación
 
 Para poner en marcha el proyecto en tu entorno local:
 
@@ -37,7 +37,7 @@ Para poner en marcha el proyecto en tu entorno local:
     * O bien, utiliza un Emulador con API 30 o superior.
 4.  **Ejecutar:** Haz clic en el botón **Run** (ícono verde de reproducción) en la barra de herramientas superior.
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Menú Principal y Planetas
 Interfaz de usuario inspirada en el diseño espacial moderno.
