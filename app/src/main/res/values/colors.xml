@@ -7,13 +7,18 @@
     <!-- Fondo espacial oscuro -->
     <color name="space_dark_bg">#0D1333</color>
 
-    <!-- Card oscura tipo glass -->
+    <!-- Card oscura -->
     <color name="space_card_dark">#1B2245</color>
 
     <!-- Texto secundario -->
     <color name="text_secondary">#8E99AF</color>
 
-    <!-- Botón acento -->
+    <!-- Botón morado -->
     <color name="accent_purple">#6C4AB6</color>
+
+    <!-- Colores que usan tus amigos -->
+    <color name="space_card_glass">#26FFFFFF</color>
+    <color name="accent_yellow">#FFC107</color>
+    <color name="neptune_blue">#4A90E2</color>
 
 </resources>
