@@ -37,23 +37,6 @@ Para poner en marcha el proyecto en tu entorno local:
     * O bien, utiliza un Emulador con API 30 o superior.
 4.  **Ejecutar:** Haz clic en el botón **Run** (ícono verde de reproducción) en la barra de herramientas superior.
 
-## Capturas de Pantalla
 
-### Menú Principal y Planetas
-Interfaz de usuario inspirada en el diseño espacial moderno.
-
-![Menú Principal](https://github.com/HARUSITA/Practica1_Moviles/raw/master/capturas/main.png)
-
-### Navegación: De Planetas a Lunas
-Sección detallada sobre los satélites naturales del sistema.
-
-![Vista de Lunas](https://github.com/HARUSITA/Practica1_Moviles/raw/master/capturas/lunas.png)
-
-### Inmersión Galáctica
-Interfaz final que muestra la información de la Vía Láctea.
-
-![Vista de Galaxia](https://github.com/HARUSITA/Practica1_Moviles/raw/master/capturas/galaxia.png)
-
----
-**Desarrollado por:** HARUSITA  
+**Desarrollado por:** HARUSITA, Emilia y Saeed  
 **Institución:** Escuela Superior de Cómputo (ESCOM - IPN)
