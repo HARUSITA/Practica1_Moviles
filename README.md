@@ -40,3 +40,17 @@ Para poner en marcha el proyecto en tu entorno local:
 
 **Desarrollado por:** HARUSITA, Emilia y Saeed  
 **Institución:** Escuela Superior de Cómputo (ESCOM - IPN)
+
+
+
+
+
+
+**Capturas de pantalla de Claudia Emilia Ramirez**
+**Android Studio**
+<img width="1919" height="1133" alt="image" src="https://github.com/user-attachments/assets/1583d8e6-ebf5-4784-a048-bd0a34c2876d" />
+**Github y Docker**
+<img width="1444" height="1128" alt="image" src="https://github.com/user-attachments/assets/f361380e-ef95-42f6-aea5-b1b31fe82083" />
+
+
+
